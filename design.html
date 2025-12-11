@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Історія Дизайну Автомобілів</title>
+<style>
+        /* СТИЛЬ: РЕТРО / ТЕПЛИЙ */
+        body {
+            font-family: 'Times New Roman', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f3ed; /* Кремово-бежевий фон */
+            color: #4b3832; /* Темно-коричневий текст */
+            line-height: 1.7;
+        }
+
+        /* ХЕДЕР */
+        header {
+            background-color: #4b3832; /* Коричневий хедeр */
+            color: #d1b89a; /* Світло-бежевий акцент */
+            padding: 35px 0;
+            text-align: center;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-family: Georgia, serif;
+            font-size: 3.2em;
+            letter-spacing: 1px;
+            font-weight: normal;
+        }
+
+        /* НАВІГАЦІЯ */
+        nav {
+            background-color: #d1b89a; /* Світла навігація */
+            padding: 10px 0;
+        }
+
+        nav ul { list-style: none; padding: 0; margin: 0; text-align: center; }
+        nav ul li { display: inline; margin: 0 20px; }
+        nav ul li a { color: #4b3832; text-decoration: none; font-weight: bold; padding: 5px 10px; transition: background-color 0.3s; }
+        nav ul li a:hover { background-color: #4b3832; color: #fff; border-radius: 3px; }
+
+        /* КОНТЕНТ */
+        .container { width: 80%; max-width: 1000px; margin: 40px auto; padding: 0; }
+        .era-section {
+            background-color: #fff;
+            padding: 35px;
+            margin-bottom: 40px;
+            border-left: 5px solid #a67c52; /* Ретро акцентна лінія */
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.05);
+            display: flex; flex-wrap: wrap; align-items: flex-start; flex-direction: row; 
+        }
+
+        .era-section.reverse-layout { 
+            flex-direction: row-reverse; 
+            border-left: none;
+            border-right: 5px solid #a67c52;
+        }
+
+        .era-section h2 {
+            color: #a67c52;
+            border-bottom: 1px solid #d1b89a;
+            padding-bottom: 10px;
+            margin-top: 0;
+            width: 100%;
+            font-size: 1.9em;
+            font-style: italic;
+        }
+
+        .content-block { flex: 2; min-width: 300px; padding-right: 30px; }
+        .reverse-layout .content-block { padding-right: 0; padding-left: 30px; }
+        
+        .image-block {
+            flex: 1; min-width: 250px; max-width: 400px; margin-top: 5px; height: 250px;
+            border: 3px solid #d1b89a; 
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        .photo-content { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+        /* ФУТЕР */
+        footer { text-align: center; padding: 25px; background-color: #4b3832; color: #f7f3ed; margin-top: 40px; font-size: 0.9em; }
+        
+        /* АДАПТИВНІСТЬ */
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Історія Дизайну Автомобілів</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Головна </a></li>
+            <li><a href="engines.html">Історія двигунів</a></li>
+            <li><a href="autonomous.html">Майбутнє транспорту</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+
+        <section class="era-section">
+            <div class="content-block">
+                <h2>1. Ера "Каретного Екіпажу" (До 1920-х)</h2>
+                <p>На початковому етапі дизайн автомобілів прямо наслідував кінні екіпажі. Кузови були відкриті або складалися з окремих
+                     "коробок" для двигуна, пасажирів та багажу. Основними стилістичними елементами були високі та вузькі форми, а кузов 
+                     часто виготовлявся вручну в стилі коучубілдингу.</p>
+            </div>
+            <div class="image-block">
+                <img src="https://api.time.com/wp-content/uploads/2015/05/150522-model-t-06.jpg" 
+                     class="photo-content">
+            </div>
+        </section>
+
+        <section class="era-section reverse-layout">
+            <div class="content-block">
+                <h2>2. Аеродинаміка та Функціоналізм (1930-ті – 1950-ті)</h2>
+                <p>Еволюція швидкості та вплив авіації призвели до появи дизайну "обтічного стилю" (Streamline Moderne) у 30-х роках. Кузови стали ширшими, нижчими, а крила почали інтегруватися у загальний силует, зменшуючи опір повітря. Після війни настав "ера плавників" та хромованих бамперів, особливо в американському автопромі.</p>
+            </div>
+            <div class="image-block">
+                <img src="https://tse3.mm.bing.net/th/id/OIP.zlgG7AEkl1sU2HssU_2pHwHaE8?cb=ucfimg2&ucfimg=1&w=1920&h=1280&rs=1&pid=ImgDetMain&o=7&rm=3" 
+                     class="photo-content">
+            </div>
+        </section>
+
+        <section class="era-section">
+            <div class="content-block">
+                <h2>3. Сучасний Дизайн та Електромобільність</h2>
+                <p>Сучасний дизайн керується безпекою, економічністю та цифровими технологіями. Перехід до електромобілів звільнив дизайнерів від необхідності розміщувати великий двигун спереду, дозволяючи створювати абсолютно нові пропорції, з короткими капотами та максимально просторим салоном (дизайн "кабіна вперед").</p>
+            </div>
+            <div class="image-block">
+                <img src="https://globemotors.ng/wp-content/uploads/2015/03/C-Class-1.jpg" 
+                     alt="Сучасний автомобільний дизайн"
+                     class="photo-content">
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>2025 Бачинський Станіслав</p>
+    </footer>
+
+</body>
+</html>

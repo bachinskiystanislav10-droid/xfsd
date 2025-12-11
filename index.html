@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Історія Автомобілів </title>
+<style>
+        /* CSS СТИЛІ: CLASSIC GREEN */
+        body {
+            font-family: 'Open Sans', 'Arial', sans-serif; /* Чистий сучасний шрифт */
+            margin: 0;
+            padding: 0;
+            background-color: #f0f4f7; /* Дуже світлий блакитно-сірий фон */
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* КОЛІР АКЦЕНТУ */
+        :root {
+            --accent-color: #490505; 
+            --light-accent: #e4c4c4; 
+        }
+
+        /* ХЕДЕР */
+        header {
+            background-color: #ffffff; 
+            color: var(--accent-color); 
+            padding: 40px 0;
+            text-align: center;
+            border-bottom: 8px solid var(--accent-color); 
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3.2em;
+            letter-spacing: 1.5px;
+            font-weight: 700;
+        }
+
+        header p {
+            font-style: italic;
+            color: #666;
+            margin-top: 5px;
+        }
+
+        /* НАВІГАЦІЯ */
+        nav {
+            background-color: #333; /* Темна смуга для контрасту */
+            padding: 12px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 25px;
+        }
+
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 600;
+            padding: 5px 10px;
+            transition: color 0.3s,; 
+            background-color: 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: var(--light-accent);
+            background-color: rgba(100, 0, 5, 0.2);
+            border-radius: 4px;
+        }
+
+        /* ОСНОВНИЙ КОНТЕНТ */
+        .container {
+            width: 85%;
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 0;
+        }
+
+        .era-section {
+            background-color: #ffffff;
+            padding: 30px;
+            margin-bottom: 40px;
+            border-radius: 10px; /* Заокруглені кути */
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* М'яка тінь */
+            border-left: 5px solid var(--accent-color); /* Акцентна лінія */
+            display: flex;
+            flex-wrap: wrap; 
+            align-items: flex-start;
+            flex-direction: row; 
+        }
+
+        /* Чергування макета */
+        .era-section.reverse-layout {
+            flex-direction: row-reverse; 
+            border-left: none;
+            border-right: 5px solid var(--accent-color);
+        }
+
+        .era-section h2 {
+            color: var(--accent-color);
+            border-bottom: 1px solid var(--light-accent);
+            padding-bottom: 10px;
+            margin-top: 0;
+            width: 100%;
+            font-weight: 700;
+            font-size: 1.8em;
+        }
+
+        .content-block {
+            flex: 2;
+            min-width: 300px;
+            padding-right: 30px; 
+        }
+        
+        .reverse-layout .content-block {
+            padding-right: 0;
+            padding-left: 30px; 
+        }
+
+        .image-block {
+            flex: 1;
+            min-width: 250px;
+            max-width: 400px;
+            margin-top: 5px;
+            height: 250px;
+
+            border-radius: 5px;
+            overflow: hidden;
+            transition: none; 
+        }
+        
+        .photo-content {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        /* ФУТЕР */
+        footer {
+            text-align: center;
+            padding: 25px;
+            background-color: var(--accent-color);
+            color: #f0f0f0;
+            margin-top: 30px;
+            font-size: 0.9em;
+        }
+ .container p a {
+    color: #580606a4; 
+    text-decoration: underline; 
+    font-weight: bold; 
+}
+
+
+.era-section h2 a {
+    color: #663a00; 
+    text-decoration: underline; 
+    font-weight: bold;
+
+}
+
+/* 3. СТИЛІ ПРИ НАВЕДЕННІ */
+.era-section h2 a:hover {
+    color: #ff880091 !important; 
+}
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Історія Розвитку Автомобілів </h1>
+    </header>
+
+  <nav>
+        <ul>
+            <li><a href="engines.html">Історія двигунів</a></li>
+            <li><a href="design.html">Історія дизайну</a></li>
+            <li><a href="autonomous.html">Майбутнє транспорту</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+
+        <section id="steam" class="era-section">
+            <div class="content-block">
+                <h2>1. Парові Візки та Перші Експерименти</h2>
+                <p>Парові Візки та Перші Експерименти</h2>
+                <p>Перші самохідні машини, такі як <a href="https://www.bing.com/ck/a?!&&p=2795b1531e8377bafb4bd89f82b4e5f7f8e40a25a811e99ec701bea87980111fJmltdHM9MTc2NTQxMTIwMA&ptn=3&ver=2&hsh=4&fclid=22433a37-0052-6fcb-2e6c-2c3601736e1c&psq=%d0%bf%d0%b5%d1%80%d1%88%d0%b8%d0%b9+%d0%b0%d0%b2%d1%82%d0%be%d0%bc%d0%be%d0%b1%d1%96%d0%bb%d1%8c&u=a1aHR0cHM6Ly91ay53aWtpcGVkaWEub3JnL3dpa2kvJUQwJTg2JUQxJTgxJUQxJTgyJUQwJUJFJUQxJTgwJUQxJTk2JUQxJThGXyVEMCVCMCVEMCVCMiVEMSU4MiVEMCVCRSVEMCVCQyVEMCVCRSVEMCVCMSVEMSU5NiVEMCVCQiVEMSU4Rg"
+                     target="_blank" title="Перейти до статті Вікіпедії">Cugnot Fardier</a> (1769), використовували парові 
+                    двигуни. Вони були повільними, громіздкими і непрактичними для широкого
+                     використання, але заклали основу для майбутнього. У XIX столітті парові
+                      автомобілі ставали більш поширеними, проте їхня ера була недовгою.
+            </div>
+            <div class="image-block">
+                <img src="https://www.arts-et-metiers.net/sites/arts-et-metiers/files/2022-09/IMG_0269.jpg" 
+                     alt="Паровий автомобіль Cugnot Fardier"
+                     class="photo-content">
+            </div>
+        </section>
+
+        <section id="birth" class="era-section reverse-layout">
+            <div class="content-block">
+                <h2>2. Ера Бензину: Карл Бенц і Даймлер</h2>
+                <p>Справжній поворотний момент настав у 1880-х роках із винаходом двигуна внутрішнього 
+                    згоряння.<a href="https://www.bing.com/ck/a?!&&p=6aaa13aff07b5d42c403cce10e62e1fe589f1a7dd0456ed565d21999247bfd61JmltdHM9MTc2NTQxMTIwMA&ptn=3&ver=2&hsh=4&fclid=22433a37-0052-6fcb-2e6c-2c3601736e1c&psq=%d0%9a%d0%b0%d1%80%d0%bb+%d0%91%d0%b5%d0%bd%d1%86&u=a1aHR0cHM6Ly9ydS53aWtpcGVkaWEub3JnL3dpa2kvJUQwJTkxJUQwJUI1JUQwJUJEJUQxJTg2LF8lRDAlOUElRDAlQjAlRDElODAlRDAlQkI"
+                     target="_blank" title="Перейти до статті Вікіпедії">Карл Бенц</a> у 1886 році запатентував свій Patent-Motorwagen — загальновизнаний перший справжній автомобіль.</p>
+            </div>
+            <div class="image-block">
+                <img src="https://images.squarespace-cdn.com/content/v1/5e7918a4b1051f6e49dcfdb1/1668278410799-MMJD0VFRNI4T4XOHBOTT/8cwawhlo.jpeg?format=2500w" 
+                     alt="Benz Patent-Motorwagen 1886 року"
+                     class="photo-content">
+            </div>
+        </section>
+
+        <section id="mass-production" class="era-section">
+            <div class="content-block">
+                <h2>3. Революція Генрі Форда і Model T</h2>
+                <p> <a href="https://uk.wikipedia.org/wiki/%D0%93%D0%B5%D0%BD%D1%80%D1%96_%D0%A4%D0%BE%D1%80%D0%B4"
+                     target="_blank" title="Перейти до статті Вікіпедії">Генрі Форда</a> винайшов, як зробити автомобіль доступним для мас. Завдяки впровадженню 
+                    конвеєрного виробництва у 1913 році, вартість виготовлення <a href="https://en.wikipedia.org/wiki/Ford_Model_T"
+                     target="_blank" title="Перейти до статті Вікіпедії">Ford Model T</a> була різко знижена. Автомобіль став необхідністю для середнього класу.</p>
+            </div>
+            <div class="image-block">
+                <img src="https://thumbor-production-auction.hemmings.com/25692/fullsizeoutput-2fe7.jpeg" 
+                     alt="Ford Model T на конвеєрі"
+                     class="photo-content">
+            </div>
+        </section>
+
+        <section id="modern-era" class="era-section reverse-layout">
+            <div class="content-block">
+                <h2>4. Сучасність і Майбутнє: Електромобілі</h2>
+                <p>Сьогодні автомобільна індустрія переживає найбільшу трансформацію з часів <a href="https://uk.wikipedia.org/wiki/%D0%93%D0%B5%D0%BD%D1%80%D1%96_%D0%A4%D0%BE%D1%80%D0%B4"
+                     target="_blank" title="Перейти до статті Вікіпедії">Генрі Форда</a> —
+                     перехід до електрифікації. Електромобілі  та автономні транспортні засоби змінюють уявлення про водіння.</p>
+            </div>
+            <div class="image-block">
+                <img src="https://t4.com.ua/wp-content/uploads/2024/08/lucid-air-sapphire-foto.webp" 
+                     alt="Сучасний електромобіль "
+                     class="photo-content">
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+          <p>2025 Бачинський Станіслав</p>
+    </footer>
+
+</body>
+</html>
